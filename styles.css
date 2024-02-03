@@ -159,14 +159,12 @@ li {
 
     .header-content span{
         color: var(--primary);
-        /* text-shadow: 0 0.1rem 0.1rem var(--shadow); */
     }
 
     .header-content p {
         font-family: var(--font-family);
         font-size: 1.5rem;
         text-align: center;
-        /* text-shadow: var(--shadow); */
     }
 
     .scroll {
@@ -229,13 +227,11 @@ li {
     .header-content span {
         font-size: 4rem;
         text-align: center;
-        /* text-shadow: var(--shadow); */
     }
 
     .header-content p {
         font-size: 1.5rem;
         text-align: center;
-        /* text-shadow: var(--shadow); */
     }
 }
 
@@ -306,7 +302,6 @@ li {
     .header-content span{
         font-size: 4rem;
         text-align: center;
-        /* text-shadow: 0 0.1rem 0.1rem var(--shadow); */
     }
 
     .header-content span{
