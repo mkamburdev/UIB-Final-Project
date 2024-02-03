@@ -6,4 +6,4 @@ Das Projekt ist das Ergebnis mehrerer Tage harter Arbeit und zeigt die Fähigkei
 
 Ich hoffe, dass dieses Projekt für andere Lernende als Ressource dienen kann und ich freue mich über Feedback und Beiträge.
 
-Für eine Live-Vorschau des Projekts, **klicken Sie bitte [hier]()**.
+Für eine Live-Vorschau des Projekts, **klicken Sie bitte [hier](https://mkamburdev.github.io/uib-final-project/)**.
