@@ -24,11 +24,7 @@ html {
     font-size: 62.5%;
 }
 
-body,
-p,
-a,
-ul,
-li {
+body,p,a,ul,li {
     text-decoration: none;
 }
 
@@ -37,9 +33,7 @@ li {
 }
 
 /* mobile styles */
-
 @media screen and (min-width: 216px) {
-
     body {
         background: var(--white);
         overflow-x: hidden;
@@ -147,8 +141,7 @@ li {
         margin: 0 auto;
     }
 
-    .header-content h2,
-    .header-content span {
+    .header-content h2, .header-content span {
         font-size: 3.6rem;
     }
 
@@ -191,17 +184,9 @@ li {
     }
 
     @keyframes scroll {
-        0% {
-            transform: translateY(0);
-        }
-
-        50% {
-            transform: translateY(1rem);
-        }
-
-        100% {
-            transform: translateY(0);
-        }
+        0% {transform: translateY(0);}
+        50% {transform: translateY(1rem);}
+        100% { transform: translateY(0);}
     }
 
     /* Section styles */
@@ -243,7 +228,7 @@ li {
         background-color: var(--white);
     }
 
-    .section-1-card:hover{
+    .section-1-card:hover {
         box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.164);
         transform: scale(1.05);
         transition: transform 0.3s ease-in-out;
@@ -286,7 +271,7 @@ li {
 
     /* Section 2 styles */
 
-    .section-2{
+    .section-2 {
         background: url('assets/img/bg2.jpg');
         background-repeat: no-repeat;
         background-position: center;
@@ -296,14 +281,14 @@ li {
         height: 100%;
     }
 
-    .section-2-bg{
+    .section-2-bg {
         background: rgba(0, 0, 0, 0.692);
         height: 100%;
         width: 100%;
         padding: 3rem 0;
     }
 
-    .infos{
+    .infos {
         display: grid;
         grid-template-areas:
             "info1 info2"
@@ -312,7 +297,7 @@ li {
         justify-items: center;
     }
 
-    .info{
+    .info {
         width: 100%;
         height: 10rem;
         margin: 2rem 0;
@@ -322,14 +307,14 @@ li {
         justify-content: center;
     }
 
-    .info span{
+    .info span {
         font-size: 2.2rem;
         font-family: 'Inter', sans-serif;
         font-weight: 400;
         text-transform: uppercase;
     }
 
-    .info p{
+    .info p {
         font-size: 1.5rem;
         font-family: 'Inter', sans-serif;
         font-weight: 200;
@@ -337,19 +322,19 @@ li {
         margin: 0 auto;
     }
 
-    .section-2-right{
+    .section-2-right {
         text-align: center;
         margin: 2rem 0;
     }
 
-    .section-2-right h3{
+    .section-2-right h3 {
         font-size: 5.5rem;
         font-family: 'Corinthia', cursive;
         font-weight: 100;
         text-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.5);
     }
 
-    .section-2-right p{
+    .section-2-right p {
         font-size: 1.5rem;
         font-family: 'Inter', sans-serif;
         font-weight: 400;
@@ -362,12 +347,12 @@ li {
 
     /* Section 3 styles */
 
-    .section-3{
+    .section-3 {
         background: var(--white);
         height: 100%;
     }
 
-    .section-3-title h3{
+    .section-3-title h3 {
         font-size: 5.5rem;
         text-align: center;
         margin: 2rem 0;
@@ -375,7 +360,7 @@ li {
         font-weight: 100;
     }
 
-    .section-3-title h4{
+    .section-3-title h4 {
         font-size: 1.5rem;
         text-align: center;
         margin: 2rem 0;
@@ -386,7 +371,7 @@ li {
         color: var(--secondary);
     }
 
-    .section-3-cards{
+    .section-3-cards {
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-content: center;
@@ -398,7 +383,7 @@ li {
         padding: 2rem 0;
     }
 
-    .section-3-card{
+    .section-3-card {
         width: 100%;
         height: 100%;
         margin: auto;
@@ -407,7 +392,7 @@ li {
         text-align: center;
     }
 
-    .section-3-card:hover{
+    .section-3-card:hover {
         box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.164);
         transform: scale(1.05);
         transition: transform 0.3s ease-in-out;
@@ -429,16 +414,16 @@ li {
         display: flex;
         justify-content: center;
         align-items: center;
-      }
+    }
 
-    .section-3-card img{
+    .section-3-card img {
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
 
     /* Section 4 styles */
-    .section-4-title h3{
+    .section-4-title h3 {
         font-size: 5.5rem;
         text-align: center;
         font-family: 'Corinthia', cursive;
@@ -446,7 +431,7 @@ li {
         color: black;
     }
 
-    .section-4-content-text p{
+    .section-4-content-text p {
         font-size: 1.5rem;
         text-align: center;
         margin: 0 auto;
@@ -459,7 +444,7 @@ li {
         color: var(--secondary);
     }
 
-    .section-4-cards h3{
+    .section-4-cards h3 {
         font-size: 5.5rem;
         text-align: left;
         width: 85%;
@@ -470,12 +455,12 @@ li {
         color: var(--white);
     }
 
-    .section-4-cards p{
+    .section-4-cards p {
         font-size: 1.5rem;
         text-align: left;
         font-family: 'Inter', sans-serif;
         font-weight: 400;
-        text-transform: inherit; 
+        text-transform: inherit;
         letter-spacing: 0;
         width: 85%;
         margin: 0 auto;
@@ -483,7 +468,7 @@ li {
         color: var(--white);
     }
 
-    .section-4-cards button{
+    .section-4-cards button {
         font-size: 1.6rem;
         font-family: 'Inter', sans-serif;
         font-weight: 600;
@@ -496,16 +481,16 @@ li {
         margin-bottom: 2rem;
     }
 
-    .section-4-cards img{
+    .section-4-cards img {
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
 
-    .section-4-cards{
+    .section-4-cards {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-areas: 
+        grid-template-areas:
             "local1"
             "local2"
             "rest1"
@@ -514,62 +499,25 @@ li {
             "bistro2"
             "coffee1"
             "coffee2"
-            ;
+        ;
         justify-content: center;
     }
 
-    .section-4-card:first-child{
-        grid-area: local1;
-    }
+    .section-4-card:first-child {grid-area: local1;}
+    .section-4-card:nth-child(2) {grid-area: local2;}
+    .section-4-card:nth-child(3) {grid-area: rest2;}
+    .section-4-card:nth-child(4) {grid-area: rest1;}
+    .section-4-card:nth-child(5) {grid-area: bistro1;}
+    .section-4-card:nth-child(6) {grid-area: bistro2;}
+    .section-4-card:nth-child(7) {grid-area: coffee2;}
+    .section-4-card:last-child {grid-area: coffee1;}
 
-    .section-4-card:nth-child(2){
-        grid-area: local2;
-    }
+    .section-4-card:nth-child(2) {background: var(--orange);}
+    .section-4-card:nth-child(3) {background: #60130b;}
+    .section-4-card:nth-child(6) {background: #256c02;}
+    .section-4-card:nth-child(7) {background: #60130b;}
 
-    .section-4-card:nth-child(3){
-        grid-area: rest2;
-    }
-
-    .section-4-card:last-child{
-        grid-area: rest1;
-    }
-
-    .section-4-card:nth-child(5){
-        grid-area: bistro1;
-    }
-
-    .section-4-card:nth-child(6){
-        grid-area: bistro2;
-    }
-
-    .section-4-card:nth-child(7){
-        grid-area: coffee2;
-    }
-
-    .section-4-card:nth-child(8){
-        grid-area: coffee1;
-    }
-
-    .section-4-card:nth-child(2){
-        background-color: var(--orange);
-    }
-
-    .section-4-card:nth-child(3){
-        background-color: #60130b;
-    }
-
-    .section-4-card:nth-child(6){
-        background: #256c02;
-    }
-
-    .section-4-card:nth-child(7){
-        background: #60130b;
-    }
-
-    .local-2-button,
-    .restaurant-1-button,
-    .bistro-2-button,
-    .coffe-1-button{
+    .local-2-button, .restaurant-1-button, .bistro-2-button, .coffe-1-button {
         width: 85%;
         margin: 0 auto;
     }
@@ -608,8 +556,7 @@ li {
         padding-bottom: 5rem;
     }
 
-    .header-content h2,
-    .header-content span {
+    .header-content h2, .header-content span {
         font-size: 4rem;
         text-align: center;
     }
@@ -620,24 +567,25 @@ li {
     }
 
     /* Section styles */
-    .section-1{
+    .section-1 {
         width: 55rem;
         margin: 0 auto;
     }
-    .infos{
+
+    .infos {
         width: 58rem;
         margin: 0 auto;
     }
 
     /* Section 2 styles */
 
-    .section-2-right-title{
+    .section-2-right-title {
         width: 58rem;
         margin: 0 auto;
     }
 
     /* Section 3 styles */
-    .section-3-cards{
+    .section-3-cards {
         width: 50rem;
         margin: 0 auto;
     }
@@ -709,8 +657,7 @@ li {
         align-items: center;
     }
 
-    .header-content h2,
-    .header-content span {
+    .header-content h2, .header-content span {
         font-size: 4rem;
         text-align: center;
     }
@@ -764,10 +711,11 @@ li {
     }
 
     /* Section 1 styles */
-    .section-1{
+    .section-1 {
         width: 75rem;
     }
-    .section-1-cards{
+
+    .section-1-cards {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -775,7 +723,8 @@ li {
         align-items: center;
         gap: 2rem;
     }
-    .section-1-card{
+
+    .section-1-card {
         width: 45%;
         height: 40rem;
     }
@@ -785,29 +734,29 @@ li {
     }
 
     /* Section 2 styles */
-    .infos{
+    .infos {
         width: 75rem;
         margin: 0 auto;
     }
 
-    .info span{
+    .info span {
         font-size: 3rem;
     }
 
-    .info p{
+    .info p {
         font-size: 1.7rem;
     }
 
-    .section-2-right h3{
+    .section-2-right h3 {
         font-size: 7rem;
     }
 
-    .section-2-right p{
+    .section-2-right p {
         width: 60rem;
     }
 
     /* Section 3 styles */
-    .section-3-cards{
+    .section-3-cards {
         width: 70rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -815,8 +764,17 @@ li {
         gap: 2.3rem;
     }
 
-    .section-3-card h5{
+    .section-3-card h5 {
         font-size: 2.1rem;
+    }
+
+    /* Section 4 styles */
+    .section-4-cards h3 {
+        font-size: 7rem;
+    }
+
+    .section-4-cards p {
+        font-size: 2rem;
     }
 }
 
@@ -866,8 +824,8 @@ li {
     }
 }
 
-@media screen and (min-width: 1024px){
-    .section-3-cards{
+@media screen and (min-width: 1024px) {
+    .section-3-cards {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         width: 93rem;
@@ -875,10 +833,21 @@ li {
         gap: 2.3rem;
     }
 
-    .section-3-title h4{
+    .section-3-title h4 {
         font-size: 1.8rem;
         font-weight: 600;
         color: var(--secondary);
+    }
+
+    .section-4-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "local1 local2"
+            "rest2 rest1"
+            "bistro1 bistro2"
+            "coffee2 coffee1"
+        ;
     }
 }
 
@@ -907,9 +876,9 @@ li {
     .content-text {
         width: 55rem;
     }
-    
+
     /* Section styles */
-    .section-1{
+    .section-1 {
         width: 100%;
         height: 70rem;
         display: flex;
@@ -921,7 +890,7 @@ li {
         font-size: 9rem;
     }
 
-    .section-1-cards{
+    .section-1-cards {
         display: flex;
         gap: 2rem;
         flex-direction: row;
@@ -930,23 +899,25 @@ li {
         width: 90%;
         margin: 0 auto;
     }
-    .section-1-card{
+
+    .section-1-card {
         width: 45%;
         height: 45rem;
     }
 
     /* Section 2 styles */
-    .section-2{
+    .section-2 {
         height: 70svh;
     }
-    .section-2-bg{
+
+    .section-2-bg {
         display: grid;
         grid-template-areas: "left right";
         align-content: center;
         justify-content: center;
     }
 
-    .section-2-left{
+    .section-2-left {
         grid-area: left;
         display: flex;
         justify-content: center;
@@ -955,16 +926,16 @@ li {
         margin: 0 5rem;
     }
 
-    .infos{
+    .infos {
         width: 100%;
         margin: 0 auto;
     }
 
-    .info{
+    .info {
         margin: 2rem 2rem;
     }
 
-    .section-2-right{
+    .section-2-right {
         height: 55rem;
         display: flex;
         flex-direction: column;
@@ -973,11 +944,11 @@ li {
         margin: 0 5rem;
     }
 
-    .section-2-left span{
+    .section-2-left span {
         font-size: 3.5rem;
     }
 
-    .section-2-right h3{
+    .section-2-right h3 {
         font-size: 9rem;
     }
 
@@ -987,8 +958,8 @@ li {
     }
 }
 
-@media screen and (min-width: 1200px){
-    .section-3-cards{
+@media screen and (min-width: 1200px) {
+    .section-3-cards {
         width: 112rem;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -996,27 +967,27 @@ li {
         margin: 0 auto;
     }
 
-    .section-3-card h5{
+    .section-3-card h5 {
         font-size: 3rem;
     }
 }
 
-@media screen and (min-width: 1400px){
-     .section-3-cards{
+@media screen and (min-width: 1400px) {
+    .section-3-cards {
         width: 130rem;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 2.3rem;
         margin: 0 auto;
-     }
+    }
 }
 
-@media screen and (min-width: 2560px){
-    .card-img img{
+@media screen and (min-width: 2560px) {
+    .card-img img {
         height: 135%;
     }
 
-    .card-content{
+    .card-content {
         margin-top: 7rem;
     }
 }
