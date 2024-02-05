@@ -441,7 +441,6 @@ li {
     .section-4-title h3{
         font-size: 5.5rem;
         text-align: center;
-        margin: 2rem 0;
         font-family: 'Corinthia', cursive;
         font-weight: 100;
         color: black;
@@ -474,7 +473,6 @@ li {
     .section-4-cards p{
         font-size: 1.5rem;
         text-align: left;
-        margin: 2rem 0;
         font-family: 'Inter', sans-serif;
         font-weight: 400;
         text-transform: inherit; 
@@ -490,20 +488,12 @@ li {
         font-family: 'Inter', sans-serif;
         font-weight: 600;
         color: var(--orange);
-        background-color: var(--white);
         border: none;
         border-radius: 0.5rem;
         padding: 1rem 4.5rem;
-        margin: 1rem 2rem;
         cursor: pointer;
         box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.5);
-    }
-
-    .section-4-cards{
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-content: center;
-        margin: 0 auto;
+        margin-bottom: 2rem;
     }
 
     .section-4-cards img{
@@ -512,8 +502,76 @@ li {
         object-fit: cover;
     }
 
-    .local-2{
+    .section-4-cards{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "local1"
+            "local2"
+            "rest1"
+            "rest2"
+            "bistro1"
+            "bistro2"
+            "coffee1"
+            "coffee2"
+            ;
+        justify-content: center;
+    }
+
+    .section-4-card:first-child{
+        grid-area: local1;
+    }
+
+    .section-4-card:nth-child(2){
+        grid-area: local2;
+    }
+
+    .section-4-card:nth-child(3){
+        grid-area: rest2;
+    }
+
+    .section-4-card:last-child{
+        grid-area: rest1;
+    }
+
+    .section-4-card:nth-child(5){
+        grid-area: bistro1;
+    }
+
+    .section-4-card:nth-child(6){
+        grid-area: bistro2;
+    }
+
+    .section-4-card:nth-child(7){
+        grid-area: coffee2;
+    }
+
+    .section-4-card:nth-child(8){
+        grid-area: coffee1;
+    }
+
+    .section-4-card:nth-child(2){
         background-color: var(--orange);
+    }
+
+    .section-4-card:nth-child(3){
+        background-color: #60130b;
+    }
+
+    .section-4-card:nth-child(6){
+        background: #256c02;
+    }
+
+    .section-4-card:nth-child(7){
+        background: #60130b;
+    }
+
+    .local-2-button,
+    .restaurant-1-button,
+    .bistro-2-button,
+    .coffe-1-button{
+        width: 85%;
+        margin: 0 auto;
     }
 }
 
