@@ -299,6 +299,7 @@ li {
         background: rgba(0, 0, 0, 0.692);
         height: 100%;
         width: 100%;
+        padding: 3rem 0;
     }
 
     .infos{
@@ -866,4 +867,14 @@ li {
         gap: 2.3rem;
         margin: 0 auto;
      }
+}
+
+@media screen and (min-width: 2560px){
+    .card-img img{
+        height: 135%;
+    }
+
+    .card-content{
+        margin-top: 7rem;
+    }
 }
