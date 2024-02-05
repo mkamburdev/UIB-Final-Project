@@ -597,6 +597,7 @@ li {
             padding: 1rem;
             background: var(--secondary);
             color: var(--white);
+            cursor: pointer;
         }
 
         /* Footer styles */
