@@ -599,6 +599,78 @@ li {
             color: var(--white);
         }
 
+        /* Footer styles */
+        footer{
+            background: url('assets/img/bg3.jpg');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            background-attachment: fixed;
+            color: var(--white);
+            text-align: center;
+            padding: 2rem 0;
+            height: 35rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        footer img{
+            width: 10rem;
+        }
+
+        .footer-menu a{
+            font-size: 1.3rem;
+            font-family: 'Inter', sans-serif;
+            font-weight: 400;
+            color: var(--white);
+            text-decoration: none;
+            text-transform: uppercase;
+            margin: 0 1rem;
+        }
+
+        .footer-menu a:hover{
+            color: var(--primary);
+        }
+
+        .footer-menu ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 2rem 0;
+        }
+
+        .footer-menu ul li{
+            margin: 0.4rem auto;
+        }
+
+        .footer-social ul{
+            display: flex;
+            justify-content: center;
+            margin: 2rem 0;
+        }
+
+        .footer-social ul li{
+            margin: 0 1rem;
+        }
+
+        .footer-social ul li a{
+            font-size: 1.6rem;
+            color: var(--white);
+            text-decoration: none;
+        }
+
+        .footer-social ul li a:hover{
+            color: var(--primary);
+        }
+
+        .footer-bottom p{
+            font-size: 1.3rem;
+            font-family: 'Inter', sans-serif;
+            font-weight: 400;
+            color: var(--white);
+        }
+
 }
 
 @media screen and (min-width: 585px) {
@@ -683,6 +755,18 @@ li {
         margin: 0 auto;
     }
 
+    /* Footer styles */
+    footer img{
+        width: 12rem;
+    }
+
+    .footer-menu ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 2rem auto;
+        width: 50rem;
+    }
 }
 
 /* small tablet styles */
@@ -1098,6 +1182,7 @@ li {
         width: 80%;
         font-size: 2rem;
     }
+
 }
 
 @media screen and (min-width: 1200px) {
