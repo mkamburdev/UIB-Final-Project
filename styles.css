@@ -634,6 +634,7 @@ li {
     }
     .section-1-card{
         width: 45%;
+        height: 40rem;
     }
 
     .section-1-title h3 {
@@ -788,6 +789,7 @@ li {
     }
     .section-1-card{
         width: 45%;
+        height: 45rem;
     }
 
     /* Section 2 styles */
