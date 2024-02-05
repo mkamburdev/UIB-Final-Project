@@ -402,6 +402,7 @@ li {
         margin: auto;
         position: relative;
         cursor: pointer;
+        text-align: center;
     }
 
     .section-3-card:hover{
@@ -501,6 +502,8 @@ li {
         width: 50rem;
         margin: 0 auto;
     }
+
+
 
 }
 
