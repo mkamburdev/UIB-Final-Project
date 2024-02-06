@@ -264,7 +264,7 @@ header {
 }
 
 .card-content h5 {
-    color: rgb(128, 128, 128);
+    color: var(--black);
     font-size: 1.5rem;
     text-align: center;
     margin: 1rem 0;
@@ -386,7 +386,7 @@ header {
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.3rem;
-    color: var(--secondary);
+    color: var(--black);
 }
 
 .section-3-cards {
@@ -465,7 +465,7 @@ header {
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.3rem;
-    color: var(--secondary);
+    color: var(--black);
     margin-bottom: 4rem;
 }
 
@@ -588,7 +588,7 @@ header {
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.3rem;
-    color: var(--secondary);
+    color: var(--black);
 }
 
 .section-5-title p {
@@ -634,7 +634,7 @@ header {
     border-radius: 0.5rem;
     padding: 1rem;
     background: var(--secondary);
-    color: var(--white);
+    color: var(--black);
     cursor: pointer;
 }
 
@@ -858,6 +858,7 @@ footer img {
 
     .social a {
         font-size: 2rem;
+        cursor: pointer;
     }
 
     .header-content {
@@ -1109,13 +1110,13 @@ footer img {
     .section-3-title h4 {
         font-size: 1.8rem;
         font-weight: 600;
-        color: var(--secondary);
+        color: var(--black);
     }
 
     .section-4-title h4 {
         font-size: 1.8rem;
         font-weight: 600;
-        color: var(--secondary);
+        color: var(--black);
     }
 }
 
