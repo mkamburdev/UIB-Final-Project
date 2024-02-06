@@ -129,7 +129,7 @@ header {
     text-decoration: none;
 }
 
-.social a:hover {
+.social i:hover {
     color: var(--primary);
     text-shadow: 0 0.1rem 0.1rem var(--shadow);
 }
