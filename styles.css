@@ -122,7 +122,7 @@ header {
     margin: 0 1rem;
 }
 
-.social ul li a {
+.social ul li i {
     font-size: 1.7rem;
     color: var(--white);
     text-shadow: 0 0.1rem 0.1rem var(--shadow);
@@ -856,9 +856,10 @@ footer img {
         display: inline-block;
     }
 
-    .social a {
-        font-size: 2rem;
+    .social i{
+        font-size: 1.7rem;
         cursor: pointer;
+        color: var(--white);
     }
 
     .header-content {
