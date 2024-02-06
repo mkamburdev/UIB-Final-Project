@@ -693,13 +693,13 @@ footer img {
     margin: 0 1rem;
 }
 
-.footer-social ul li a {
+.footer-social ul li i {
     font-size: 1.6rem;
     color: var(--white);
     text-decoration: none;
 }
 
-.footer-social ul li a:hover {
+.footer-social ul li i:hover {
     color: var(--primary);
 }
 
