@@ -144,12 +144,12 @@ header {
     margin: 0 auto;
 }
 
-.header-content h2,
+.header-content h1,
 .header-content span {
     font-size: 3.6rem;
 }
 
-.header-content h2 {
+.header-content h1 {
     font-family: var(--font-family);
     font-weight: 300;
     text-align: center;
@@ -743,7 +743,7 @@ footer img {
         padding-bottom: 5rem;
     }
 
-    .header-content h2,
+    .header-content h1,
     .header-content span {
         font-size: 4rem;
         text-align: center;
@@ -873,7 +873,7 @@ footer img {
         align-items: center;
     }
 
-    .header-content h2,
+    .header-content h1,
     .header-content span {
         font-size: 4rem;
         text-align: center;
