@@ -18,9 +18,9 @@ Ich hoffe, dass dieses Projekt für andere Lernende als Ressource dienen kann un
 
 ## Colors
 ![Colors](https://i.imgur.com/ZgBklb5.png)
-- Green
+- Chartreuse
 - White
-- Turquoise
+- Electric blue
 - Black
 
 ## Fonts
