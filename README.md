@@ -1,4 +1,12 @@
+<div align="center">
+<img src ="./assets/img/logo.png" width="150px" alt="PB Final Project">
+</div>
+
+<div align="center">
+
 # DCI UIB Final Project
+
+</div>
 
 Dieses Repository wurde für das Abschlussprojekt bei Digital Career Institute (DCI) erstellt. Es enthält den gesamten Code, die Dokumentation und andere Ressourcen, die für das Projekt benötigt werden.
 
