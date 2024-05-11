@@ -1,43 +1,50 @@
 <div align="center">
-<img src ="./assets/img/logo.png" width="150px" alt="PB Final Project">
+<img src ="./assets/img/logo.png" width="150px" alt="Antalya Travel">
 </div>
 
 <div align="center">
 
-# DCI UIB Final Project
+# Antalya Travel
 
 </div>
 
-Dieses Repository wurde für das Abschlussprojekt bei Digital Career Institute (DCI) erstellt. Es enthält den gesamten Code, die Dokumentation und andere Ressourcen, die für das Projekt benötigt werden.
+<div align="center">
+  
+[**Screenshots**](#screenshots) || [**Technologies**](#technologies) || [**Color Reference**](#color-reference) || [**Fonts**](#fonts) || [**Photos**](#photos) || [**Lighthouse Report**](#lighthouse-report) || [**Demo**](#demo) || [**Author**](#author)
 
-Das Projekt ist das Ergebnis mehrerer Tage harter Arbeit und zeigt die Fähigkeiten, die ich während meiner Zeit bei DCI erworben habe. Es verwendet ausschließlich HTML und CSS und hat ein responsives Design, das auf allen Geräten gut aussieht.
+</div>
 
-Ich hoffe, dass dieses Projekt für andere Lernende als Ressource dienen kann und ich freue mich über Feedback und Beiträge.
+This repository was created for the final project at Digital Career Institute (DCI). It contains all the code, documentation, and other resources needed for the project.
 
-## Technologies Used
+The project is the result of several days of hard work and showcases the skills I have acquired during my time at DCI. It exclusively uses HTML and CSS and has a responsive design that looks good on all devices.
+
+I hope this project can serve as a resource for other learners, and I welcome feedback and contributions.
+
+
+## Screenshots
+![Desktop version](./assets/img/responsive.png)
+
+
+## Technologies
 - HTML
 - CSS
 
-## Desktop version
-![Desktop version](https://i.imgur.com/IG0sgWH.jpeg)
+## Color Reference
 
-## Mobile version
-![Mobile version](https://i.imgur.com/A6RqncJ.png)
+| Color             | HEX         |
+| ---------------- | --------------- |
+| Black         | ![#000000](https://via.placeholder.com/10/000000?text=+) #000000 |
+| White         | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
+| Blue         | ![#0000ee](https://via.placeholder.com/10/0000ee?text=+) #0000ee |
+| Sky Blue      | ![#75dee9](https://via.placeholder.com/10/75dee9?text=+) #75dee9 |
+| Chartreuse         | ![#88ff00](https://via.placeholder.com/10/88ff00?text=+) #88ff00 |
 
-## Colors
-![Colors](https://i.imgur.com/ZgBklb5.png)
-- Chartreuse
-- White
-- Electric blue
-- Black
 
 ## Fonts
 - Google Fonts
 - Local Fonts
 - Inter
 - Corinthia
-
-## Icons
 - Font Awesome
 
 ## Photos
@@ -50,5 +57,10 @@ Ich hoffe, dass dieses Projekt für andere Lernende als Ressource dienen kann un
 ### Desktop
 ![Desktop](https://i.imgur.com/2M5qiDE.png)
 
-## Live
+## Demo
 [https://mkamburdev.github.io/uib-final-project/](https://mkamburdev.github.io/uib-final-project/)
+
+## Author
+
+- E-mail - [mkambur@proton.me](mkambur@proton.me)
+- LinkedIn - [@mkambur](https://linkedin.com/in/mkambur)
