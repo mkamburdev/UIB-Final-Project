@@ -58,7 +58,7 @@ I hope this project can serve as a resource for other learners, and I welcome fe
 ![Desktop](https://i.imgur.com/2M5qiDE.png)
 
 ## Demo
-[https://mkamburdev.github.io/uib-final-project/](https://mkamburdev.github.io/uib-final-project/)
+[https://uib-final-project.vercel.app/](https://uib-final-project.vercel.app/)
 
 ## Author
 
